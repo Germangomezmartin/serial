@@ -1,6 +1,6 @@
 int a = 3;
 int b = 2;
-int d;
+float d;
 
 void setup()               // run once, when the sketch starts
 {
@@ -13,7 +13,8 @@ void setup()               // run once, when the sketch starts
   Serial.print("b = ");
   Serial.println(b);
   
-  d = a / b;
+  d = a;
+  d = d / b;
  
   Serial.print("a / b = ");
   Serial.println(d);
